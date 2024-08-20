@@ -27,6 +27,8 @@ Develop an effective visualization tool to represent earthquake data collected b
 
 https://thaychansy.github.io/leaflet-challenge/
 
+<img width="800" src="images/earthquake_data.gif" alt="Earthquake Data" />
+
 ### Background
 The USGS is responsible for delivering crucial scientific information on natural hazards, ecosystem health, environmental conditions, and the impacts of climate and land-use changes. They collect and analyze vast amounts of earthquake data from around the world on a daily basis but currently lack a sophisticated method for visualizing this data. A well-designed visualization tool will enhance public understanding, facilitate communication with other government agencies, and potentially assist in securing additional funding for their initiatives.
 
