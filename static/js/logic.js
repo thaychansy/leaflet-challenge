@@ -59,15 +59,15 @@ legend.onAdd = function() {
     
     // Apply inline styles directly to the legend
     div.style.backgroundColor = 'white'; // White background
-    div.style.border = '2px solid lightgray'; // Light black border (dark gray)
+    div.style.border = '2px solid lightgray'; // Light gray
     div.style.borderRadius = '5px'; // Rounded corners
-    div.style.padding = '10px'; // Padding inside the box
-    div.style.fontSize = '14px'; // Font size
+    div.style.padding = '4px'; // Padding inside the box
+    div.style.fontSize = '13px'; // Font size
     div.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.6)'; // Shadow effect
     
     var grades = [-10, 10, 30, 50, 70, 90];
     var labels = [];
-    var legendInfo = "<h4>Depth (km)</h4>";
+    var legendInfo = "<h3>Legend</h3>Depth (km)";
 
     div.innerHTML = legendInfo;
 
@@ -75,7 +75,7 @@ legend.onAdd = function() {
     for (var i = 0; i < grades.length; i++) {
         // Add inline styles for each list item
         labels.push('<li style="margin: 0; padding: 5px 0; font-size: 12px;">' +
-                    '<span style="display: inline-block; width: 80px; height: 18px; background-color:' +
+                    '<span style="display: inline-block; width: 45px; height: 14px; background-color:' +
                     chooseColor(grades[i] + 1) + '; border-radius: 4px;"></span> ' +
                     grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] : '+') + '</li>');
     }
