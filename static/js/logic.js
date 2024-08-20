@@ -75,7 +75,7 @@ legend.onAdd = function() {
     for (var i = 0; i < grades.length; i++) {
         // Add inline styles for each list item
         labels.push('<li style="margin: 0; padding: 5px 0; font-size: 12px;">' +
-                    '<span style="display: inline-block; width: 45px; height: 14px; background-color:' +
+                    '<span style="display: inline-block; width: 50px; height: 14px; background-color:' +
                     chooseColor(grades[i] + 1) + '; border-radius: 4px;"></span> ' +
                     grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] : '+') + '</li>');
     }
