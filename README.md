@@ -1,4 +1,4 @@
-<h1  align="center">USGS Earthquake Interactive Leaflet Visualization Project</h1>
+<h1  align="center">USGS Earthquake Interactive Leaflet Project</h1>
 <a name="readme-top"></a>
 
 
