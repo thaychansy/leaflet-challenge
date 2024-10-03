@@ -24,7 +24,7 @@ Develop an effective visualization tool to represent earthquake data collected b
 
 ### GitHub Pages Live Link:
 
-https://thaychansy.github.io/leaflet-challenge/
+[https://thaychansy.github.io/leaflet-challenge/](https://thaychansy.github.io/leaflet-map-visualization/)
 
 <img width="800" src="images/earthquake_data.gif" alt="Earthquake Data"/>
 
